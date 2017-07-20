@@ -1,0 +1,133 @@
+body {
+  background-color: black;
+  color: seashell;
+  font-size: 22px;
+  text-align: center;
+}
+
+*  {
+  opacity: 0.9;
+  font-family: Helvetica;
+}
+
+/*header - add position: fixed; later!*/
+
+header {
+    display: flex;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+}
+
+header img {
+  height: 50px;
+  padding-left: 20px;
+}
+
+a {
+  text-decoration: underline;
+  color: seashell;
+  display: inline-block;
+  padding: 7px;
+}
+/* end header*/
+
+
+.main {
+  width: 1200px;
+  margin: auto;
+}
+
+/*mission*/
+#mission {
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.tea {
+  background-color: black;
+  width: 100%;
+}
+/*end mission*/
+
+/*Tea-of-the-Month section*/
+
+.TOTM {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  margin: 10px 15px;
+}
+
+.item span {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/*end Tea-of-the-Month section*/
+
+/*location section*/
+
+#locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin-left: 30px;
+  padding-top: 70px;
+  width: 1200px;
+  height: 500px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+#loc-header h2 {
+  margin: 0 0 15px 0;
+  text-align: center;
+}
+#boxes {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.loc-boxes {
+  margin: 0 20px;
+  padding-top: 30px;
+  display: static;
+  height: 260px;
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+}
+
+*contact {
+  height: 200px;
+}
+
+footer {
+  display: flex;
+  align-items: flex-end;
+  font-weight: bold;
+  opacity: 1;
+}
